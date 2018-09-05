@@ -33,6 +33,9 @@ header .link {
     width: 20%;
     border-right: 1px solid black;
     height: 100%;
+    color: #fff;
+    text-align: center;
+    padding-top: 40px;
 }
 
 header .search {
@@ -48,6 +51,10 @@ section{
 }
 section div{
     width: 50%;
+    color: #fff;
+    font-size:1em;
+    line-height: 27em; 
+    text-align: center;
     float: left;
     height: 100%;
     background: #484848;
@@ -78,6 +85,7 @@ section div + div{
     background: black;
     margin-left: 10%;
     padding: .5em 0;
+    color: #fff;
     } 
     
 .text span{
