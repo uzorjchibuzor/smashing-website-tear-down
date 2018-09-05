@@ -1,0 +1,42 @@
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+body{
+    margin: 0; 
+    height: 100vh;
+}
+header{
+    height: 28%;
+    background: gray;
+}
+
+section{
+    height: 72%;
+    width: 100%;
+}
+section div{
+    width: 50%;
+    float: left;
+    height: 100%;
+    background: red;
+    border: 1px solid #000;
+}
+
+.text{
+    width: 10%;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+}
+.text p{
+    width: 100%;
+    background: white;
+    } 
+    
+.text span{
+    width: 80%;
+    background: white;
+}
