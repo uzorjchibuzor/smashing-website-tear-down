@@ -1,0 +1,97 @@
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+body{
+    margin: 0; 
+    height: 100vh;
+}
+header{
+    height: 28%;
+    background: gray;
+}
+
+header div {
+    float: left;
+}
+
+header .logo {
+    width: 15%;
+    border-right: 1px solid black;
+    height: 100%;
+}
+
+header .links {
+    width: 70%;
+    
+    height: 100%;
+}
+
+header .link {
+    width: 20%;
+    border-right: 1px solid black;
+    height: 100%;
+    color: #fff;
+    text-align: center;
+    padding-top: 40px;
+}
+
+header .search {
+    width: 15%;
+    height: 100%;
+}
+
+
+
+section{
+    height: 72%;
+    width: 100%;
+}
+section div{
+    width: 50%;
+    color: #fff;
+    font-size:1em;
+    line-height: 27em; 
+    text-align: center;
+    float: left;
+    height: 100%;
+    background: #484848;
+    border: 1px solid #000;
+}
+
+
+section div + div{
+    width: 50%;
+    float: left;
+    height: 100%;
+    background: #2d2c2c;
+    border: 1px solid #000;
+}
+
+.text{
+ 
+    text-align: center;
+    width: 30%;
+    position: absolute;
+    top: 37%;
+    left: 35%;
+}
+.text p{
+    
+    margin-bottom: 0;
+    width: 80%;
+    background: black;
+    margin-left: 10%;
+    padding: .5em 0;
+    color: #fff;
+    } 
+    
+.text span{
+    width: 33%;
+    
+    display: inline-block;
+    background: black;
+    padding: .5em 0;
+}
